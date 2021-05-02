@@ -1,0 +1,99 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 16282 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Github/GenericSavingSystem
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57452
+Successfully changed project path to: F:/Github/GenericSavingSystem
+F:/Github/GenericSavingSystem
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Github/GenericSavingSystem/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001310 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.427 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2238.
+Total: 1.737000 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.062500 ms MarkObjects: 1.425700 ms  DeleteObjects: 0.094700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TestSaving.cs
+  artifactKey: Guid(211b8d3ec5ac411a99bd9fc2f4dbf971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestSaving.cs using Guid(211b8d3ec5ac411a99bd9fc2f4dbf971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62656b4704272d321bef92a1ba55ea8d') in 0.024793 seconds
+  Import took 0.030322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Adapter.cs
+  artifactKey: Guid(161c5d7e0f28f9142be51e5c2e84bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adapter.cs using Guid(161c5d7e0f28f9142be51e5c2e84bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37d439494457ec6e047874662171938') in 0.004844 seconds
+  Import took 0.007517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6193.669290 seconds.
+  path: Assets/LocalSaving.cs
+  artifactKey: Guid(450cc7fa450a4a2b97987df3fcf69915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalSaving.cs using Guid(450cc7fa450a4a2b97987df3fcf69915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67c742a4f2df2dd0a2c7dfc3fad8ecd') in 0.005862 seconds
+  Import took 0.042118 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Saving;
 using UnityEngine;
 
 public class TestSaving : MonoBehaviour, ISavable<Dictionary<string, int>>{
-    Adapter adapter;
+    SaveAdapter saveAdapter;
 
 
     Dictionary<string, int> Gold{ get; set; }
 
     void Start(){
-        this.adapter = new Adapter(this.name);
-        this.Gold = new Dictionary<string, int>(){
+        this.saveAdapter = new SaveAdapter(this.name);
+        this.Gold = new Dictionary<string, int>{
             ["Alex"] = 0,
             ["John"] = 0,
             ["Clara"] = 0,
@@ -29,11 +29,11 @@ public class TestSaving : MonoBehaviour, ISavable<Dictionary<string, int>>{
         }
 
         if (Input.GetKeyDown(KeyCode.S)){
-            this.adapter.Save(this);
+            this.saveAdapter.Save(this);
         }
 
         if (Input.GetKeyDown(KeyCode.L)){
-            this.adapter.Load(this);
+            this.saveAdapter.Load(this);
         }
     }
 
