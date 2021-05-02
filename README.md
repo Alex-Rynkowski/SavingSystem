@@ -1,9 +1,18 @@
 # SavingSystem
+#[Download](https://github.com/Alex-Rynkowski/SavingSystem/archive/refs/heads/main.zip)
+
 A flexible saving system for storing and restoring data.
 
 We are using newtonsoft json for serializing and deserializing. Make sure you import the asset into your project:
 https://assetstore.unity.com/packages/tools/input-management/json-net-for-unity-11347
 
+### **How to import:**
+* Click the download link at top
+* Unzip the content
+* Copy the Saving folders content into your own project
+
+
+### **How to use**
 
 * Implement the ISaveable interface:
 * Create a new instance of the SaveAdapter
@@ -15,17 +24,23 @@ Define the interface:
 
 ![image](https://user-images.githubusercontent.com/66161323/116825545-191e7980-ab90-11eb-9e56-579eab422ed0.png)
 
+
 Implement the interface:
 
 ![image](https://user-images.githubusercontent.com/66161323/116825630-6569b980-ab90-11eb-9046-d83bca7bb5e3.png)
+
 
 Create a new instance of the SaveAdapter:
 
 ![image](https://user-images.githubusercontent.com/66161323/116825716-b2e62680-ab90-11eb-8d4f-a55d230f039a.png)
 
+
 Save and load from where ever you want:
 
 ![image](https://user-images.githubusercontent.com/66161323/116825893-9a2a4080-ab91-11eb-9a38-8777374c5f04.png)
+
+
+
 
 
 ### **Example for player position (vector3)**
