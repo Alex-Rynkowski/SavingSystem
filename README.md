@@ -1,7 +1,7 @@
 # SavingSystem
 #[Download](https://github.com/Alex-Rynkowski/SavingSystem/archive/refs/heads/main.zip)
 
-A flexible saving system for storing and restoring data.
+A flexible saving system for storing and restoring data locally.
 
 We are using newtonsoft json for serializing and deserializing. Make sure you import the asset into your project:
 https://assetstore.unity.com/packages/tools/input-management/json-net-for-unity-11347
