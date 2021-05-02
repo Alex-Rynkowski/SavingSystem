@@ -9,7 +9,8 @@ https://assetstore.unity.com/packages/tools/input-management/json-net-for-unity-
 * Create a new instance of the SaveAdapter
 * Call save and load wherever you want to save / restore the data
 
-Example for Gold (int)
+### **Example for Gold (int)**
+
 Define the interface:
 
 ![image](https://user-images.githubusercontent.com/66161323/116825545-191e7980-ab90-11eb-9e56-579eab422ed0.png)
@@ -27,7 +28,8 @@ Save and load from where ever you want:
 ![image](https://user-images.githubusercontent.com/66161323/116825893-9a2a4080-ab91-11eb-9a38-8777374c5f04.png)
 
 
-**Example for player position (vector3)**
+### **Example for player position (vector3)**
+
 Define the interface:
 
 ![image](https://user-images.githubusercontent.com/66161323/116825600-466b2780-ab90-11eb-86d5-78776023cc5c.png)
